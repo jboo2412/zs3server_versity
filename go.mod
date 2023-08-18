@@ -58,3 +58,11 @@ require (
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 )
+
+//Added for Zus Network
+require ( 
+	github.com/0chain/gosdk v0.0.0-00010101000000-000000000000
+)
+
+replace github.com/0chain/gosdk => github.com/0chain/gosdk staging
+
